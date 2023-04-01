@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main class="Principal">
+        <div class="calculator">
+            <div class="calculator__screen" id="screen">0</div>
+            <button class="calculator__button" onclick="clearScreen()">C</button>
+            <button class="calculator__button" onclick="backspace()">←</button>
+            <button class="calculator__button" onclick="updateScreen('/')">÷</button>
+            <button class="calculator__button" onclick="updateScreen('7')">7</button>
+            <button class="calculator__button" onclick="updateScreen('8')">8</button>
+            <button class="calculator__button" onclick="updateScreen('9')">9</button>
+            <button class="calculator__button" onclick="updateScreen('*')">x</button>
+            <button class="calculator__button" onclick="updateScreen('4')">4</button>
+            <button class="calculator__button" onclick="updateScreen('5')">5</button>
+            <button class="calculator__button" onclick="updateScreen('6')">6</button>
+            <button class="calculator__button" onclick="updateScreen('-')">-</button>
+            <button class="calculator__button" onclick="updateScreen('1')">1</button>
+            <button class="calculator__button" onclick="updateScreen('2')">2</button>
+            <button class="calculator__button" onclick="updateScreen('3')">3</button>
+            <button class="calculator__button" onclick="updateScreen('+')">+</button>
+            <button class="calculator__button calculator__button--wide" onclick="updateScreen('0')">0</button>
+            <button class="calculator__button" onclick="updateScreen('.')">.</button>
+            <button class="calculator__button" onclick="calculate()">=</button>
+          </div>
+    </main><!--principal-->
+</body>
+ <script src="script.js"></script>
+</html>
